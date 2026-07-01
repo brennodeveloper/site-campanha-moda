@@ -4,7 +4,7 @@ import { RevealUp } from "@/components/RevealUp";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Quem custura o futuro da moda? — Um editorial interativo" },
+      { title: "Quem costura o futuro da moda? — Um editorial interativo" },
       {
         name: "description",
         content:
