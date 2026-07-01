@@ -10,12 +10,12 @@ export const Route = createFileRoute("/resultado")({
   }),
   head: () => ({
     meta: [
-      { title: "Seu resultado · Logo ou Nome" },
+      { title: "Seu resultado · Moda em código" },
       {
         name: "description",
         content: "Seu olhar contra a máquina. Veja o que sua intuição revelou.",
       },
-      { property: "og:title", content: "Seu resultado — Logo ou Nome" },
+      { property: "og:title", content: "Seu resultado — Moda em código" },
       {
         property: "og:description",
         content: "Você realmente consegue distinguir a criatividade humana da Inteligência Artificial?",
@@ -40,7 +40,7 @@ function Resultado() {
     <main className="flex min-h-screen flex-col bg-background text-foreground">
       <header className="flex items-center justify-between border-b border-border px-6 py-6 md:px-12">
         <Link to="/" className="font-display text-sm tracking-[0.4em] uppercase">
-          Logo ou Nome
+          Moda em código
         </Link>
         <div className="text-[10px] uppercase tracking-[0.4em] text-muted-foreground">
           Resultado · Editorial nº 01
@@ -94,9 +94,9 @@ function Resultado() {
         </RevealUp>
       </section>
 
-      <footer className="border-t border-border px-6 py-6 text-center text-[10px] uppercase tracking-[0.4em] text-muted-foreground md:px-12">
-        <div  className="grid gap-2">
-          <p>Feito pelo ++ né:</p>
+      <footer className="border-t border-border px-6 py-6 text-center text-sm text-muted-foreground md:px-12">
+        <div className="grid gap-2">
+          <p className="text-gray-600">Feito por:</p>
           <a href="https://instagram.com/brennoslow" className="text-blue-600"> Brenno Souza </a>
         </div>
       </footer>

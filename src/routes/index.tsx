@@ -4,13 +4,13 @@ import { RevealUp } from "@/components/RevealUp";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Quem cria o futuro da moda? — Um editorial interativo" },
+      { title: "Quem custura o futuro da moda? — Um editorial interativo" },
       {
         name: "description",
         content:
           "Uma experiência editorial sobre a fronteira entre criatividade humana e Inteligência Artificial na moda contemporânea.",
       },
-      { property: "og:title", content: "Quem cria o futuro da moda?" },
+      { property: "og:title", content: "Quem costura o futuro da moda?" },
       {
         property: "og:description",
         content:
@@ -39,7 +39,7 @@ function Hero() {
 
       {/* Top bar */}
       <header className="absolute inset-x-0 top-0 z-10 flex items-center justify-between px-6 py-6 md:px-12">
-        <div className="font-display text-lg tracking-[0.4em] uppercase">Logo ou Nome</div>
+        <div className="font-display text-lg tracking-[0.4em] uppercase">Moda em código</div>
         <div className="text-[10px] uppercase tracking-[0.4em] text-muted-foreground">
           MMXXVI · Editorial nº 01
         </div>
@@ -54,7 +54,7 @@ function Hero() {
         </RevealUp>
         <RevealUp delay={150}>
           <h1 className="font-display mt-6 max-w-4xl text-5xl font-light leading-[0.95] tracking-tight md:text-7xl lg:text-8xl">
-            Quem cria
+            Quem costura
             <br />
             o futuro
             <br />
@@ -63,9 +63,9 @@ function Hero() {
         </RevealUp>
         <RevealUp delay={400}>
           <p className="mt-8 max-w-md text-sm leading-relaxed text-muted-foreground">
-            A Inteligência Artificial já faz parte das criações publicitárias na moda. convida você
-            a observar essa transformação e refletir sobre o papel da tecnologia como ferramenta,
-            ferramenta, sem perder de vista a identidade e a criatividade humanas.
+            A Inteligência Artificial já faz parte das criações publicitárias na moda. Por isso,
+            convidamos vocês a observar essa transformação e refletir sobre o papel da tecnologia
+            como ferramenta, sem perder de vista a identidade e a criatividade humanas.
           </p>
         </RevealUp>
         <RevealUp delay={650}>

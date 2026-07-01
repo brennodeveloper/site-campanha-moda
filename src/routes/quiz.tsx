@@ -51,7 +51,7 @@ function QuizPage() {
       <header className="sticky top-0 z-20 border-b border-border bg-background/80 backdrop-blur">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-5 md:px-12">
           <Link to="/" className="font-display text-sm tracking-[0.4em] uppercase text-foreground">
-            Logo ou Nome do Projeto
+            Moda em código
           </Link>
           <div className="text-[10px] uppercase tracking-[0.4em] text-muted-foreground">
             {String(index + 1).padStart(2, "0")} / {String(total).padStart(2, "0")}
