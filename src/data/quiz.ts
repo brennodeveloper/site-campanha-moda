@@ -17,7 +17,7 @@ export const QUIZ_QUESTIONS: QuizQuestion[] = [
   {
     id: 1,
     label: "Look 01",
-    image: "../assets/images/sfn-1.jpeg",
+    image: "/assets/images/sfn-1.jpeg",
     imagePrompt:
       "Capa da revista SFN, Edição 07 de junho de 2026. Destaque para um jovem vestindo streetwear autêntico e boné, em cenário urbano com cerca de ferro ao fundo. Tipografia amarela e branca anuncia o tema 'Guetos e Estilo'.",
     answer: "human",
@@ -27,7 +27,7 @@ export const QUIZ_QUESTIONS: QuizQuestion[] = [
   {
     id: 2,
     label: "Look 02",
-    image: "../assets/images/sfn-ai.jpeg",
+    image: "/assets/images/sfn-ai.jpeg",
     imagePrompt: "...",
     answer: "ai",
     explanation:
@@ -36,7 +36,7 @@ export const QUIZ_QUESTIONS: QuizQuestion[] = [
   {
     id: 3,
     label: "Look 03",
-    image: "../assets/images/sfn-ai2.jpeg",
+    image: "/assets/images/sfn-ai2.jpeg",
     imagePrompt: "...",
     answer: "ai",
     explanation:
@@ -45,7 +45,7 @@ export const QUIZ_QUESTIONS: QuizQuestion[] = [
   {
     id: 4,
     label: "Look 04",
-    image: "../assets/images/sfn-2.jpeg",
+    image: "/assets/images/sfn-2.jpeg",
     imagePrompt:
       "Editorial de moda da SFN mostrando close-up de peças de vestuário streetwear, incluindo camisa de futebol personalizada com o dizer '091 OG GUETO' e acessórios urbanos. Composição focada em texturas e identidade visual da periferia.",
     answer: "human",
@@ -55,7 +55,7 @@ export const QUIZ_QUESTIONS: QuizQuestion[] = [
   {
     id: 5,
     label: "Look 05",
-    image: "../assets/images/sfn-ai3.jpeg",
+    image: "/assets/images/sfn-ai3.jpeg",
     imagePrompt: "...",
     answer: "ai",
     explanation: "Composição feita inteiramente por IA generativa.",
@@ -63,7 +63,7 @@ export const QUIZ_QUESTIONS: QuizQuestion[] = [
   {
     id: 6,
     label: "Look 06",
-    image: "../assets/images/sfn-3.jpeg",
+    image: "/assets/images/sfn-3.jpeg",
     imagePrompt:
       "Página interna da revista SFN com grupo de artistas urbanos posando em ambiente externo, vestindo coleções de marcas locais de streetwear. A imagem transmite a vivência real das ruas e a conexão entre moda, música e cultura jovem de 2026.",
     answer: "human",
